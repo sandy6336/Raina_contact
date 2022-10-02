@@ -1,0 +1,206 @@
+/* Applying font to all the body elements */
+body {
+    font-family: 'Montserrat';
+}
+
+/* Applying the background color to the title section */
+#title {
+    background-color: blanchedalmond;
+}
+
+/* Making all h1 to the particular font and color */
+h1 {
+    font-family: 'Ubuntu';
+    color: white;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Applying the padding for the first element */
+.container-fluid{
+    padding: 3% 15% 7%;
+}
+
+/* padding to the navbar */
+.navbar {
+    padding-bottom: 2.5rem;
+}
+
+/* Padding between the items in the nav bar */
+.nav-item {
+    padding: 8px 8px;
+}
+
+/* Giving the font size to the nav items */
+.navbar-brand {
+    font-family: 'Ubuntu';
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+/* Giving the all sides margins to the buttons */
+.download-button{
+    margin: 5% 5% 5% 0;
+}
+
+/* Making the title image changing its width and rotates at some amount of bend */
+.title-image{
+    width: 30%;
+    transform: rotate(25deg);
+    /* Making the image to be absolute to make image pass through the next section for styling purpose */
+    position: absolute;
+    margin-right: 10%;
+    border-radius: 5%;
+}
+
+/* Making the features to pad and bg color */
+#features {
+    padding: 7% 15%;
+    background-color: white;
+    position: relative;
+}
+
+/* Making all h3 into Montserrat-bold */
+h3{
+    font-family: 'Montserrat-bold';
+}
+
+/* Making the feature box in center align  */
+.feature-box{
+    text-align: center;
+    padding: 5%;
+    font-family: 'Montserrat';
+
+}
+
+/* Icons in to the particular color */
+.icon {
+    color: beige;
+    padding-bottom: 1rem;
+}
+
+/* Icon is to be change its color when hovering it */
+.icon:hover {
+    color:blanchedalmond ;
+}
+
+/* Making padding and center align and bg color  */
+#testimonials {
+    padding: 5% 10%;
+    text-align: center;
+    background-color: blanchedalmond;
+}
+
+/*Making the all h2's */
+h2{
+    font-family: 'Montserrat-bold';
+    color: white;
+    line-height: 1.5;
+    font-size: 3rem;
+
+}
+
+/* Images into particular size and radius */
+.testimonial-image{
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* The section to be particular color and center align */
+#press {
+    background-color:blanchedalmond ;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+/* Giving the margin and width */
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 40px;
+}
+
+/* Giving the padding to the carousel items */
+.carousel-item {
+    padding: 8% 15%;
+}
+
+/* Changing the button looks */
+.pricing-button{
+    border-radius: 20px;
+}
+
+/* Price head to be on black */
+.price-head{
+    color: black;
+}
+
+/* Price center align */
+#pricing {
+    padding: 5% 10% 5% 10%;
+    text-align: center;
+}
+
+/* Price padding */
+.price-table{
+    padding-top: 5%;
+}
+
+/* last to be center align */
+.last-stage{
+    text-align: center;
+    background-color: blanchedalmond;
+    padding: 100px 10px 100px 10px;
+
+}
+
+/* Making the font to particular font*/
+.last-state{
+    font-family: 'Montserrat-Black';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* styling the buttons */
+.foot-button{
+    border-radius: 10px;
+}
+
+/* center align to the footers */
+#footer-end{
+    padding: 7% 15%;
+    text-align: center;
+
+}
+
+/* footer font and color */
+.footer{
+    font-size: 30px;
+    margin: 10px 10px;
+}
+.footer {
+    color: black;
+  }
+/* Hovering via icons  */
+.foot-face:hover{
+    color: blue;
+}
+.foot-insta:hover{
+    color: rgb(214, 72, 188);
+}
+.fa-twit:hover{
+    color: skyblue;
+}
+.fa-enve:hover{
+    color:rgb(11, 81, 109);
+}
+
+/* when it reaches the 990px mark it should be making th text as center and image rotate to the center */
+@media (max-width:990px){
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+}
